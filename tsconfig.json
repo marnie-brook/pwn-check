@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "downlevelIteration": true,
+    "target": "es5"
+  },
+  "include": [ "./src/*", "./typings/*" ],
+  "exclude": [ "node_modules" ]
+}
